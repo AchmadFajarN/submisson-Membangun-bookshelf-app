@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    padding-block: 1rem;
+    text-align: center;
+    background-color: lightseagreen;
+    color: #fff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 2rem;
+    gap: 2rem;
+}
+section{
+    max-width: 720px;
+    width: 100%;
+    min-width: 320px;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 16px;
+    box-shadow: 0px 8px 6px 0 rgba(0, 0, 0, 0.2);
+}
+main section:nth-child(1) h2{
+    text-align: center;
+    margin-bottom: 1rem;    
+    color: lightseagreen;
+}
+main section:nth-child(1) input[type="text"],
+main section:nth-child(1) input[type="number"] {
+    padding: 6px 12px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+main section:nth-child(1) input:focus {
+    outline: 2px solid lightseagreen;
+}
+main section:nth-child(1) label {
+    color: lightseagreen;
+    font-weight: bold;
+}
+main section:nth-child(1) input {
+    margin: 5px 0 0.5rem 0;
+}
+main section:nth-child(1) button {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: lightseagreen;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+main section:nth-child(1) button:hover {
+    background-color: transparent;
+    border: 2px solid lightseagreen;
+    color: lightseagreen;
+}
+main section:nth-child(1) button:focus {
+    outline: 2px solid lightseagreen;
+}
+main section:nth-child(2) h2{
+    text-align: center;
+    color: lightseagreen;
+    margin-bottom: 1rem;
+}
+main section:nth-child(2) form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section:nth-child(2) label {
+    font-weight: bold;
+    color: lightseagreen;
+    font-size: 20px;
+}
+main section:nth-child(2) input {
+    margin: 0 4px 0 8px;
+    padding: 6px 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+main section:nth-child(2) input:focus {
+    outline: 2px solid lightseagreen;
+}
+main section:nth-child(2) button {
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    background-color: lightseagreen;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+main section:nth-child(2) button:hover {
+    background-color: transparent;
+    border: 1px solid lightseagreen;
+    color: lightseagreen;
+}
+main section:nth-child(2) button:focus {
+    outline: 2px solid lightseagreen;
+}
+main section:nth-child(3) {
+    color: lightseagreen;
+}
+main section:nth-child(3) h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main section:nth-child(3) div.bookCard {
+    padding: 8px 16px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+div.bookCard h3 {
+    margin-bottom: 1rem;
+}
+div.bookCard p {
+    font-weight: 500;
+}
+div.bookCard div {
+    margin-top: 1rem;
+    display: flex;
+    gap: 8px;
+}
+div.bookCard button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: #fff;
+}
+div.bookCard button:nth-child(1) {
+    background-color: #20b262;
+    transition: all 0.2s ease-in-out;
+}
+div.bookCard button:nth-child(1):hover {
+    background-color: transparent;
+    color: #20b262;
+    border: 1px solid #20b262;
+}
+div.bookCard button:nth-child(2) {
+    background-color: #b23620;
+    transition: all 0.2s ease-in-out;
+}
+div.bookCard button:nth-child(2):hover {
+    background-color: transparent;
+    color: #b23620;
+    border: 1px solid #b23620;
+}
+div.bookCard button:nth-child(3) {
+    background-color: lightseagreen;
+    transition: all 0.2s ease-in-out;
+}
+div.bookCard button:nth-child(3):hover {
+    background-color: transparent;
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+}
+main section:nth-child(4) {
+    color: lightseagreen;
+}
+main section:nth-child(4) h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main section:nth-child(4) div.bookCard {
+    padding: 8px 16px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
