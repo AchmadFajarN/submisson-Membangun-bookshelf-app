@@ -25,8 +25,6 @@ bookForm.addEventListener('submit', (e) => {
     bookAuthor.value = '';
     bookYear.value = '';
     isCompleteBook.checked = false;
-
-    
 })
 
 function addBook() {
