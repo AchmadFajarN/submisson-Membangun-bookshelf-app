@@ -192,3 +192,90 @@ main section:nth-child(4) div.bookCard {
     margin-bottom: 1rem;
 }
 
+div.editFormContainer {
+    position: fixed;
+    top: 30%;
+    max-width: 420px;
+    width: 100%;
+    padding: 3rem;
+    border-radius: 10px;
+    background-color: #eee;
+    border: 2px solid lightseagreen;
+    box-shadow: 0px 8px 6px 0 rgba(0, 0, 0, 0.2);
+    color: lightseagreen;
+}
+
+div.editFormContainer input,
+div.editFormContainer label {
+    display: block;
+}
+div.editFormContainer label{
+    font-weight: bold;
+}
+div.editFormContainer input{
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+div.editFormContainer input:focus{
+    outline: 2px solid lightseagreen;
+}
+div.editFormContainer button[type="submit"] {
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: lightseagreen;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+div.editFormContainer button[type="submit"]:hover {
+    background-color: transparent;
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
+}
+
+div.editFormContainer div.relative {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+div.relative button.closeButton {
+    position: absolute;
+    right: 0;
+    top: -2.2rem;
+    right: -2.2rem;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    background-color: #b23620;
+    color: #fff;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+}
+div.relative button.closeButton:hover {
+    border: 2px solid #b23620;
+    background-color: transparent;
+    color: #b23620;
+}
+div.editFormContainer div.relative p{
+    font-weight: bold;
+    text-align: center;
+}
+#formEdit input{
+    margin-block: 3px;
+    width: 100%;
+}
+.hidden {
+    display: none;
+}
+@media screen and (max-width: 780px) {
+    main{
+        padding-inline: 2rem;
+    }
+}
+
